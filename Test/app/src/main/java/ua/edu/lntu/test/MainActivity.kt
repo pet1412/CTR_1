@@ -48,7 +48,7 @@ fun Greeting() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Avatar()
-
+        Contact()
     }
 }
 
