@@ -51,6 +51,25 @@ fun Greeting() {
 
     }
 }
+
+@Composable
+fun Contact(){
+    Column {
+        Row(){
+            Icon(imageVector = Icons.Default.Phone, contentDescription = null)
+            Text(text = "+11 (123) 444 555 666")
+        }
+        Row(){
+            Icon(imageVector = Icons.Default.Share, contentDescription = null)
+            Text(text = "@AndroidDev")
+        }
+        Row(){
+            Icon(imageVector = Icons.Default.Email, contentDescription = null)
+            Text(text = "jen.doe@android.com")
+        }
+    }
+}
+
 @Composable
 fun Avatar(){
     Column(
